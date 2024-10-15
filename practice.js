@@ -94,3 +94,28 @@ const {name , home} = person
 console.log(name, home);
 
 // truthy and falsy value
+
+const math = 5;
+// check truthy value
+if(!!math){
+    console.log('This is truthy value and the condition is true');
+}
+
+// check falsy value
+const math2 = '';
+if(!math2){
+    console.log('This is falsy value but condition is true');
+}
+
+// with out using Number , parseInt , ParseFloat convert string to number
+
+const sum2 = 5
+
+const result = sum2 + '' // convert to string
+console.log(result);
+
+// convert string to number
+
+const number2 = '100'
+const convertNumber = +number2 // [ + ] sing convert string to number
+console.log(convertNumber);
